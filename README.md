@@ -1,3 +1,5 @@
+[![Node.js CI/CD](https://github.com/carlosmaccarrone/personal-library-nodejs-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosmaccarrone/personal-library-nodejs-backend/actions/workflows/ci.yml)
+
 # Personal Library Node.js Backend
 
 Node.js backend for the personal book library, with REST API and object mapping using Sequelize. This project includes unit and integration tests with Jest and Supertest.
