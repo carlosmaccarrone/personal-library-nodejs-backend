@@ -1,12 +1,15 @@
 [![Node.js CI/CD](https://github.com/carlosmaccarrone/personal-library-nodejs-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosmaccarrone/personal-library-nodejs-backend/actions/workflows/ci.yml)
 
-# Personal Library Node.js Backend
+# 📚 Personal Library Node.js Backend
 
 Node.js backend for the personal book library, with REST API and object mapping using Sequelize. This project includes unit and integration tests with Jest and Supertest.
 
+The application runs in Docker containers alongside the database and communicates through a shared Docker network.
+
 ---
 
-## Technologies
+## ⚙️ Technologies
+
 - Node.js
 - Express
 - Sequelize ORM
@@ -17,7 +20,8 @@ Node.js backend for the personal book library, with REST API and object mapping 
 
 ---
 
-## Features
+## 💡 Features
+
 - RESTful API for managing books, authors, and genres
 - Sequelize models with associations
 - Mocked unit tests to avoid touching the real database
@@ -96,7 +100,7 @@ docker-compose build
 
 ---
 
-## Testing
+## 🧪 Test
 
 ### 1. Setup node app in background:
 ```bash
@@ -120,4 +124,4 @@ npm test
 
 ## License
 
-MIT License © Charly
+## 👨‍💻 Developed by Carlos Maccarrone
