@@ -47,4 +47,4 @@ jobs:
       run: npm test
 
     - name: Build Docker image
-      run: docker build -t personal-library-nodejs-backend -f docker/node/Dockerfile docker/node
+      run: docker build -t personal-library-nodejs-backend -f docker/node/Dockerfile .
