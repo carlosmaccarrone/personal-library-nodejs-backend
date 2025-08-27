@@ -122,6 +122,4 @@ npm test
 
 ---
 
-## License
-
 ## 👨‍💻 Developed by Carlos Maccarrone
