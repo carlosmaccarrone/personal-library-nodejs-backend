@@ -54,7 +54,7 @@ This will create a network shared by both projects (backend & database) and will
 ### 1. Clone the Backend and run it.
 
 ```bash
-git clone 
+git clone https://github.com/carlosmaccarrone/personal-library-nodejs-backend.git
 cd personal-library-nodejs-backend
 ```
 
@@ -66,31 +66,31 @@ docker-compose build
 ## 📖 Main Endpoints  
 
 🔹 Authors  
-	`GET /api/authors` → List all authors
-	`GET /api/authors/:id` → Bring in an author by author_id 
-	`POST /api/authors` → Create an author
-	`PUT /api/authors/:id` → Update an author
-	`DELETE /api/authors/:id` → Delete an author
+	`GET /api/authors` → List all authors  
+	`GET /api/authors/:id` → Bring in an author by author_id  
+	`POST /api/authors` → Create an author  
+	`PUT /api/authors/:id` → Update an author  
+	`DELETE /api/authors/:id` → Delete an author  
 
 🔹 Books  
-	`GET /api/books` → List all books 
-	`GET /api/books/:isbn` → Bring a book by ISBN 
-	`POST /api/books` → Create a book
-	`PUT /api/books/:isbn` → Update a book 
-	`DELETE /api/books/:isbn` → Delete a book
+	`GET /api/books` → List all books  
+	`GET /api/books/:isbn` → Bring a book by ISBN  
+	`POST /api/books` → Create a book  
+	`PUT /api/books/:isbn` → Update a book  
+	`DELETE /api/books/:isbn` → Delete a book  
 
 🔹 Genres  
-	`GET /api/genres` → List all genres
-	`GET /api/genres/:id` → Bring a genre by genre_id
-	`POST /api/genres` → Create a genre
-	`PUT /api/genres/:id` → Update a genre
-	`DELETE /api/genres/:id` → Delete a genre 
+	`GET /api/genres` → List all genres  
+	`GET /api/genres/:id` → Bring a genre by genre_id  
+	`POST /api/genres` → Create a genre  
+	`PUT /api/genres/:id` → Update a genre  
+	`DELETE /api/genres/:id` → Delete a genre  
 
 🔹 Relaciones (Many-to-Many)  
-	`GET /books/:isbn/authors` → List of authors of a book 
-	`GET /books/:isbn/genres` → List of genres of a book 
-	`POST /books/:isbn/authors` → Associate an author with a book
-	`POST /books/:isbn/genres` → Associate a genre with a book 
+	`GET /books/:isbn/authors` → List of authors of a book  
+	`GET /books/:isbn/genres` → List of genres of a book  
+	`POST /books/:isbn/authors` → Associate an author with a book  
+	`POST /books/:isbn/genres` → Associate a genre with a book  
 
 ---
 
